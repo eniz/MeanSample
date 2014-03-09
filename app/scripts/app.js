@@ -12,6 +12,10 @@ angular.module('sampleApp', [
         templateUrl: 'partials/main',
         controller: 'MainCtrl'
       })
+      .when('/matchList', {
+        templateUrl: 'partials/matchList',
+        controller: 'MatchListCtrl'
+      })
       .otherwise({
         redirectTo: '/'
       });

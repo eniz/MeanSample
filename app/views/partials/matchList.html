@@ -1,0 +1,17 @@
+<table class="table table-striped" ng-controller='MatchListCtrl'>
+  <thead>
+    <tr>
+      <th>FT</th>
+      <th>Match</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr ng-repeat="match in MatchListCtrl">
+      <td>{{match.status}}</td>
+      <td>{{match.home_team}}</td>
+      <td>{{match.away_team}}</td>
+      <td>{{match.home_score}}</td>
+      <td>{{match.away_score}}</td>
+    </tr>
+  </tbody>
+</table>
