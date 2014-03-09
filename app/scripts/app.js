@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('yeniKlasorApp', [
+angular.module('sampleApp', [
   'ngCookies',
   'ngResource',
   'ngSanitize',
